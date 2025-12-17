@@ -104,7 +104,7 @@ const Particles = () => {
 
 const Background3D: React.FC = () => {
   return (
-    <div className="fixed inset-0 z-0 bg-[#000814]">
+    <div className="fixed inset-0 -z-10 bg-[#000814]">
       <Canvas dpr={[1, 2]} performance={{ min: 0.5 }}>
         <PerspectiveCamera makeDefault position={[0, 0, 6]} fov={45} />
         <ambientLight intensity={0.4} />

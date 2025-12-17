@@ -9,14 +9,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "framer-motion": "^12.23.26",
-    "react": "^19.2.3",
-    "lucide-react": "^0.561.0",
-    "react-dom": "^19.2.3",
-    "@react-three/fiber": "^9.4.2",
-    "three": "^0.182.0",
     "@react-three/drei": "^10.7.7",
-    "html2canvas": "^1.4.1"
+    "@react-three/fiber": "^9.4.2",
+    "firebase": "^12.7.0",
+    "framer-motion": "^12.23.26",
+    "html2canvas": "^1.4.1",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "three": "^0.182.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
